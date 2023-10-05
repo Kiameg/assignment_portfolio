@@ -72,7 +72,7 @@ h1 {
 .hours_con {
   padding-left: 1rem;
 }
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width: 430px) {
   .main_con {
     display: flex;
     flex-direction: column;
