@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Slab&family=M+PLUS+Rounded+1c:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --h1: "EB Garamond", serif;
+  --p: "Josefin Slab", serif;
+  --menu: "'M PLUS Rounded 1c', sans-serif;";
+  --background-color: #ac7b84;
+  --pink: #f5a6e6;
+  --dark: #4c243b;
+  --red: #b84a62;
+  --purple: #54457f;
+}
+body {
+  background-color: var(--background-color);
+}
+main {
+  max-height: 100dvh;
+}
+
+header {
+  background-color: var(--dark);
+  padding: 0.5rem;
+  margin-bottom: 6rem;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--red);
+  font-size: 3rem;
+}
+
+a:hover {
+  color: var(--background-color);
+}
+
+h1 {
+  color: var(--pink);
+  font-family: var(--h1);
+}
+
+/********** Index page **********/
+
+.style_con {
+  max-width: 1500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+/**********A page**********/
+
+.portrait {
+  max-width: 300px;
+  border-radius: 10%;
+  position: absolute;
+  right: 59%;
+  bottom: 38%;
+}
+
+.a_con {
+  max-width: 900px;
+  height: 500px;
+  background-color: var(--purple);
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 35% 60%;
+}
+
+.font_con h2 {
+  color: var(--pink);
+  font-size: 2rem;
+}
+
+.font_con h3 {
+  color: var(--pink);
+  font-size: 1.5rem;
+}
+
+.font_con p {
+  color: var(--pink);
+  font-size: 1.2rem;
+}
+
+.linkedin-logo {
+  position: absolute;
+  top: 66%;
+  margin-left: 2rem;
+  border-radius: 50%;
+  width: 2rem;
+}
+.facebook-logo {
+  position: absolute;
+  top: 66%;
+  right: 67%;
+  border-radius: 50%;
+  width: 2rem;
+}
+.connect-p {
+  position: absolute;
+  top: 63%;
+  margin-left: 2.5rem;
+}
+
+@media only screen and (min-width: 690px) and (max-width: 865px) {
+  .portrait {
+    max-width: 200px;
+    right: 68%;
+    bottom: 45%;
+  }
+
+  .a_con {
+    max-width: 670px;
+    max-height: 420px;
+  }
+
+  .font_con {
+    margin-top: 2rem;
+  }
+
+  .connect-p {
+    top: 57%;
+  }
+
+  .facebook-logo {
+    top: 60%;
+    right: 80%;
+  }
+
+  .linkedin-logo {
+    top: 60%;
+  }
+}
+
+@media only screen and (min-width: 515px) and (max-width: 690px) {
+}
