@@ -13,7 +13,6 @@
   --pink: #f5a6e6;
   --dark: #4c243b;
   --red: #b84a62;
-  --purple: #54457f;
 }
 body {
   background-color: var(--background-color);

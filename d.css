@@ -1,0 +1,26 @@
+.main_con {
+  display: flex;
+  justify-content: center;
+}
+
+.grid_con {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.img_con img {
+  width: 100px;
+}
+.con1,
+.con4 {
+  background-color: var(--purple);
+}
+
+.con2,
+.con5 {
+  background-color: var(--red);
+}
+
+.con3 {
+}
