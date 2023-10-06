@@ -10,13 +10,18 @@
   border-radius: 15px;
 }
 h1 {
-  color: var(--red);
+  color: var(--pink);
+}
+
+.img_con > div {
+  color: var(--pink);
 }
 
 .column_2 > div {
+  color: var(--dark);
   width: 200px;
   height: 200px;
-  background-color: var(--pink);
+  background-color: var(--red);
   border-radius: 15px;
 }
 
@@ -45,6 +50,7 @@ h1 {
 
 .check_con {
   background-color: var(--red);
+  color: var(--pink);
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
@@ -89,7 +95,7 @@ h1 {
   .column_2 > div {
     width: 100%;
     height: 150px;
-    background-color: var(--pink);
+    background-color: var(--red);
     border-radius: 15px;
   }
 

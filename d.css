@@ -23,6 +23,7 @@
 
 .img_con {
   padding: 1rem;
+  color: var(--pink);
 }
 
 .h2_con1,
@@ -49,12 +50,12 @@
 
 .con1,
 .con4 {
-  background-color: var(--dark);
+  background-color: #9b4f66;
 }
 
 .con2,
 .con5 {
-  background-color: var(--red);
+  background-color: #99485a;
 }
 
 .grid_con > div {
@@ -73,7 +74,7 @@
 }
 .con3 {
   grid-area: conThree;
-  background-color: var(--pink);
+  background-color: #be5f74;
 }
 .con4 {
   grid-area: conFour;
