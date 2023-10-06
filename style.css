@@ -53,9 +53,21 @@ h1 {
 
 /********** Index page **********/
 
+.h1_index {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-family: var(--h1);
+  font-size: 3rem;
+}
 .style_con {
   max-width: 1500px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+}
+
+.style_con p {
+  font-size: 2rem;
+  color: var(--dark);
+  font-family: var(--p);
 }

@@ -21,7 +21,14 @@
   margin-right: -80%;
   z-index: 1;
 }
-
+.p_c {
+  text-align: center;
+  color: var(--dark);
+  font-family: var(--p);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
 .con_1 {
   width: 100%;
   margin-right: -34%;

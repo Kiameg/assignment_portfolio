@@ -17,6 +17,15 @@ h1 {
   color: var(--pink);
 }
 
+.p_b {
+  text-align: center;
+  color: var(--dark);
+  font-family: var(--p);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
 .column_2 > div {
   color: var(--dark);
   width: 200px;
